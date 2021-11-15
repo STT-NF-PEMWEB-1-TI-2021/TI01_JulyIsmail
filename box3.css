@@ -1,0 +1,45 @@
+.box1 {
+    width: 275px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 1,5em;
+    left: 0,5em;
+    }
+.box2 {
+    width: 1040px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    left: 19em;
+    top: 1,5em;
+    float: right;
+    margin-right: 10px;
+    }
+.box3 {
+    width: 275px;
+    height: 520px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: em;
+    margin-top: 7em;
+    margin-bottom: 1em  
+    }
+.box4 {
+    width: 750px;
+    height: 520px;
+    background-color: grey;
+    margin-top: 7em;
+    margin-bottom: 1em;
+    position: absolute;
+    margin-left: 300px;
+    margin-right: 15px;
+    }
+.box5 {
+    width: 275px;
+    height: 520px;
+    background-color: turquoise;
+    margin-top: 7em;
+    float: right;
+    margin-right: 10px;
+    }

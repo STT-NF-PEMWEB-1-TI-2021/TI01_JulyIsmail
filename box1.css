@@ -1,0 +1,36 @@
+.box1 {
+    width: 275px;
+    height: 600px;
+    background-color: yellow;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    }
+
+.box2 {
+    width: 275px;
+    height: 600px;
+    background-color: tomato;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    margin-left: 335px;
+    }
+
+.box3 {
+    width: 275px;
+    height: 600px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    margin-left: 665px;
+    }
+.box4 {
+    width: 275px;
+    height: 600px;
+    background-color: turquoise;
+    position: absolute;
+    top: 2em;
+    right: 3rem;
+}
