@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasi</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="isi">
+  <h1>Form Validasi</h1>
+  <br>
+    <form class="container">
+        <div>
+          <b><label>Nama Pelangan</label></b>
+          <input type="text" class="form-control" id="nama" placeholder="Max 30 Karakter">
+        </div>
+
+        <div>
+          <b><label>Alamat Email</label></b>
+          <input class="form-control" id="email" >
+        </div>
+      </br>
+      <div class="d-flex flex-row">
+      <b><P class="text-md-left">Jam keberangkatan</P></b>
+        <input type="time" style="width:100px;">
+      </div>
+    </br>
+      <div>
+
+        <div>
+        <b><label for="exampleFormControlTextarea1">Tujuan keberangkatan</label></b>
+          <input class="form-control" type="text" placeholder="Kota Atau Negara Tujuan" id="tujuan">
+        </div>
+      </div>
+
+      <div>
+      <b><label for="exampleFormControlSelect1">Jumlah Tiket</label></b>
+        <select style="margin: 20px;">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+      </div>
+      </br>
+      <button  class="btn btn-success" onclick="chechform()">Success</button>
+      </form>
+</body>
+<script>
+  function chechform(){
+    const username = document.getElementById("nama").value;
+    const email = document.getElementById("email").value;
+    const tujuan = document.getElementById("tujuan").value;
+
+  if (username == "" || email == ""|| tujuan== ""){
+    alert("MASIH ADA FORM YANG KOSONG SILAHKAN PERIKSA KEMBALI");
+  }
+  else{
+    alert("YAPSS SUDAH BERHASIL");
+  }
+  }
+</script>
+
+</html>
