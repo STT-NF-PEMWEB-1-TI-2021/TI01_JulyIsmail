@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6.2 | July Ismail</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+    }
+    nav {
+      background-color: pink;
+      height: 40em;
+      width: 10em;
+    }
+    #tengah {
+      display: flex;
+    }
+    #tengah > article {
+      height: 30em;
+      width: 40em;
+    }
+    #tengah > aside {
+      background: cyan;
+      width: 40em;
+    }
+    header,
+    footer {
+      background: khaki;
+      height: 5em;
+      width: 80em;
+    }
+    header,
+    footer,
+    article,
+    nav,
+    aside {
+      padding: 1em;
+    }
+  </style>
+  <body>
+    <nav>Nav</nav>
+    <div id="kiri">
+      <header>Header</header>
+      <div id="tengah">
+        <article>Article</article>
+        <aside>Aside</aside>
+      </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
